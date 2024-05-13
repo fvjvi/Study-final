@@ -32,6 +32,7 @@ if(window.innerWidth > 500) {
                 let password = localStorage[logUN];
                 if(logPW === password){
                     alert("登录成功！");
+                    location.href = 'index-main.html';
                     document.getElementById('logUN').value = "";
                     document.getElementById('logPW').value = "";
                 } else {
