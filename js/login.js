@@ -31,7 +31,7 @@ if(window.innerWidth > 500) {
             if(logUN in localStorage){
                 let password = localStorage[logUN];
                 if(logPW === password){
-                    window.location.href = 'index-main.html';
+                    window.location.href = '\index-main.html';
                     document.getElementById('logUN').value = "";
                     document.getElementById('logPW').value = "";
                 } else {
